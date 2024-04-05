@@ -1,0 +1,67 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color:#2506ad;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    font-family: "Nunito", sans-serif;
+}
+
+main {
+    padding: 2rem;
+}
+
+.certificates {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.certificate {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 20px;
+    
+}
+.certificate p{
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+    margin-top: 30px;
+}
+
+
+.certificate img {
+    width: 100%;
+    display: block;
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.certificate img:hover {
+        transform: scale(1.05);
+}
+
+
+footer {
+    background-color: #2506ad;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    font-family: "Nunito", sans-serif;
+}
